@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#087747">
+  <meta name="description" content="Find waste collection points around Kumba">
+  <title>HYSACAM Kumba | Find a Dustbin</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <header class="site-header">
+    <a href="#home" class="brand" aria-label="HYSACAM Kumba home">
+      <span class="brand-symbol" aria-hidden="true">♻</span>
+      <span class="brand-name">
+        <strong>HYSACAM</strong>
+        <small>Kumba Community Portal</small>
+      </span>
+    </a>
+
+    <button class="menu-toggle" id="menu-toggle"
+      aria-label="Open navigation" aria-expanded="false">☰</button>
+
+    <nav class="main-nav" id="main-nav">
+      <a class="nav-link active" href="#home">Home</a>
+      <a class="nav-link" href="#map">Map</a>
+      <a class="nav-link" href="#directory">Directory</a>
+      <a class="nav-link" href="#cleaning">Cleaning Records</a>
+      <a class="nav-link" href="#about">About</a>
+      <a class="nav-login" href="#login">Login</a>
+      <a class="nav-cta" href="#directory">Get Started</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-content">
+        <span class="eyebrow">A cleaner Kumba starts with us</span>
+        <h1>Find a Dustbin<br>Near You in <span>Kumba</span></h1>
+        <p>
+          Find registered waste collection points around Kumba
+          and help keep our communities clean
+        </p>
+
+        <form class="location-search" id="location-search">
+          <label class="sr-only" for="location-input">Search location</label>
+          <span aria-hidden="true">⌕</span>
+          <input id="location-input" type="search"
+            placeholder="Search location, e.g. Kumba, Mile 2"
+            autocomplete="off">
+          <button type="submit">Search</button>
+        </form>
+
+        <p class="search-message" id="search-message" role="status"></p>
+
+        <div class="hero-benefits">
+          <a href="#map"><span>⌖</span> Locate dustbins</a>
+          <a href="#directory"><span>◉</span> View locations</a>
+          <a href="#cleaning"><span>✓</span> Cleaning information</a>
+        </div>
+      </div>
+
+      <aside class="hero-promo">
+        <div class="promo-icon" aria-hidden="true">♻</div>
+        <h2>Let's keep<br>Kumba clean!</h2>
+        <p>Every clean street makes a difference</p>
+      </aside>
+    </section>
+
+    <section class="services section-wrap" aria-labelledby="services-title">
+      <div class="section-heading">
+        <div>
+          <span class="eyebrow">Explore the platform</span>
+          <h2 id="services-title">Our Services</h2>
+        </div>
+        <p>Everything you need to find waste collection information</p>
+      </div>
+
+      <div class="service-grid">
+        <a class="service-card" href="#map">
+          <span class="service-icon" aria-hidden="true">⌖</span>
+          <h3>Interactive Map</h3>
+          <p>Explore registered dustbin locations around Kumba</p>
+          <span class="service-action">Explore map →</span>
+        </a>
+
+        <a class="service-card" href="#directory">
+          <span class="service-icon" aria-hidden="true">☷</span>
+          <h3>Dustbin Directory</h3>
+          <p>Search and browse registered collection points</p>
+          <span class="service-action">Browse locations →</span>
+        </a>
+
+        <a class="service-card" href="#cleaning">
+          <span class="service-icon" aria-hidden="true">✓</span>
+          <h3>Cleaning Records</h3>
+          <p>View available cleaning activity information</p>
+          <span class="service-action">View records →</span>
+        </a>
+
+        <a class="service-card" href="#about">
+          <span class="service-icon" aria-hidden="true">i</span>
+          <h3>Project Information</h3>
+          <p>Learn about this community cleanliness project</p>
+          <span class="service-action">Learn more →</span>
+        </a>
+      </div>
+    </section>
+
+    <section class="community-strip">
+      <div>
+        <span class="eyebrow">Our community, our responsibility</span>
+        <h2>Let's work towards a cleaner Kumba</h2>
+        <p>Better waste information helps communities make informed decisions</p>
+      </div>
+      <a class="nav-cta" href="#directory">Explore locations →</a>
+    </section>
+
+    <section class="simple-section" id="map">
+      <div class="section-heading">
+        <div>
+          <span class="eyebrow">Find collection points</span>
+          <h2>Dustbin Map</h2>
+        </div>
+      </div>
+      <p class="placeholder-note">
+        The interactive map will be added in the map integration stage
+      </p>
+    </section>
+
+    <section class="simple-section" id="directory">
+      <div class="section-heading">
+        <div>
+          <span class="eyebrow">Browse locations</span>
+          <h2>Dustbin Directory</h2>
+        </div>
+      </div>
+      <p class="placeholder-note">
+        The registered dustbin directory will be connected to the database
+      </p>
+    </section>
+
+    <section class="simple-section" id="cleaning">
+      <div class="section-heading">
+        <div>
+          <span class="eyebrow">Community information</span>
+          <h2>Cleaning Records</h2>
+        </div>
+      </div>
+      <p class="placeholder-note">
+        Cleaning records will appear here when the feature is implemented
+      </p>
+    </section>
+
+    <section class="simple-section about-section" id="about">
+      <div>
+        <span class="eyebrow">About this project</span>
+        <h2>Working towards a cleaner Kumba</h2>
+        <p>
+          HYSACAM Kumba Tracker is a student project designed to make
+          waste collection information easier to explore and understand
+        </p>
+      </div>
+    </section>
+
+    <section class="simple-section" id="login">
+      <div class="section-heading">
+        <div>
+          <span class="eyebrow">Secure access</span>
+          <h2>Account Access</h2>
+        </div>
+      </div>
+      <p class="placeholder-note">
+        Sign-in and sign-out will be integrated with the authentication teammate's work
+      </p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <a href="#home" class="brand footer-brand">
+      <span class="brand-symbol" aria-hidden="true">♻</span>
+      <span class="brand-name">
+        <strong>HYSACAM</strong>
+        <small>Kumba Community Portal</small>
+      </span>
+    </a>
+    <p>HYSACAM Kumba Tracker — Student Project</p>
+    <a href="#about">About this project</a>
+  </footer>
+
+  <script src="js/app.js"></script>
+</body>
+</html>
